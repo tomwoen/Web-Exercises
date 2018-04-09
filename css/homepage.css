@@ -29,15 +29,17 @@ html {
     width: 75%; 
     font-family: "Courier New", Courier, monospace;
     font-size: 30px;
-    
+    display: inline;
 }
 
 .image {
     
-    display: block;
-    margin-left: 1000;
-    margin-right: 100;
+    float:right;
+    margin: 0 0 1em 1em;
+   
 }
+
+
 
 body {
     

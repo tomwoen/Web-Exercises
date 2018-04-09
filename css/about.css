@@ -28,7 +28,7 @@ html {
     width: 75%;
     font-family: "Courier New", Courier, monospace;
     font-size: 30px;
-    float: left;
+    display: inline;
 }
 
 body {
@@ -41,8 +41,6 @@ body {
 }
 
 .image {
-        
-    margin-left: 1000;
-    margin-right: 100;
-    float: right;
+    float:right;
+    margin: 0 0 1em 1em;
 }
