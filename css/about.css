@@ -8,6 +8,7 @@ html {
     background-color: chartreuse;
     color: black;
     text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
     word-spacing: 40px;
 }
 
@@ -22,7 +23,9 @@ html {
     background-color: plum;
     text-align: center;
     margin: auto;
-    width: 25%;
+    width: 75%;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
 }
 
 body {

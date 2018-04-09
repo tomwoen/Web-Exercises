@@ -8,6 +8,7 @@ html {
     background-color: chartreuse;
     color: black;
     text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
     word-spacing: 40px;
   
 }
@@ -22,10 +23,19 @@ html {
     background-color: aqua;
         color: black;
     text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
     margin: auto;
-    width: 25%;
+    width: 75%;
     
 }
+
+.search {
+    
+   
+    
+}
+
 body {
     
     background-color:whitesmoke;
