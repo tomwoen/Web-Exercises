@@ -49,7 +49,7 @@ body {
 }
 .image {
     
-    display: block;
-    margin-left: 1000;
-    margin-right: 100;
+   float:right;
+    margin: 0 0 1em 1em;
+   
 }
