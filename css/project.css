@@ -1,0 +1,36 @@
+html {
+    
+    background-color: crimson;
+}
+
+.navigation {
+    
+    background-color: chartreuse;
+    color: black;
+    text-align: center;
+    word-spacing: 40px;
+  
+}
+
+
+.navigation a:link {
+    color: #00008B;
+}
+
+.myproj {
+    
+    background-color: aqua;
+        color: black;
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    
+}
+body {
+    
+    background-color:whitesmoke;
+    width: 70%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
