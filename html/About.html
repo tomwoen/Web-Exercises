@@ -3,6 +3,19 @@
         <title>Tom's Website </title> 
     
         <link href="../css/about.css" rel="stylesheet" type="text/css" />
+         <script>
+            function funct1() {
+//                            
+                document.getElementById("aboutme").append("I was awarded a Master's degree in Earth Science from Uppsala University and awarded a Bachelor's degree in Biochemistry from University of Manchester.");
+                
+                var elem = document.createElement("img");
+                elem.setAttribute("src","https://media.giphy.com/media/eCqFYAVjjDksg/giphy.gif");
+                
+                document.getElementById("gif").appendChild(elem);
+               // document.getElementById("gif").append('');
+               
+            }
+        </script>
     </head>
     <body>
         <div class = "navigation">
@@ -14,12 +27,20 @@
         <div class="first">
             
             <p>
-                
-                My name is Thomas Owen <a><img alt="Thomas Owen" src="../Images/me.jpg" class="image" style="width: auto; height: auto; display: inline " align="right"/></a> and I am a Graduate Test Analyst for Cognizant.
-               I was awarded a Master's degree in Earth Science from Uppsala University and awarded a Bachelor's degree in Biochemistry from University of Manchester.
-                
+               <a><img alt="Thomas Owen" src="../Images/me.jpg" class="image" style="width: auto; height: auto; display: inline " align="right"/></a> 
+               My name is Thomas Owen and I am a Graduate Test Analyst for Cognizant.
+               
             </p>
+                       
+                        
+            <button type="button" align="center" onclick="funct1()" >Click to find more</button>
             
+            <p id="gif"></p>
+           
+            
+            
+            <p id="aboutme"></p>
+        
         </div>
     </body>
 </html>
