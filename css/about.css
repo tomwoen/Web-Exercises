@@ -29,6 +29,13 @@ html {
     font-family: "Arial", Helvetica, sans-serif;
     font-size: 50px;
     display: inline;
+    align-content: center;
+}
+
+.b1 {
+    
+    text-align: center;
+    
 }
 
 body {
@@ -43,4 +50,12 @@ body {
 .image {
     float:right;
     margin: 0 0 1em 1em;
+}
+.b1 {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 32px;
+    border: none;
+    cursor: pointer;
 }

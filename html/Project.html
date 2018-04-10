@@ -2,6 +2,35 @@
  <head>
         <title>Tom's Website </title> 
          <link href="../css/project.css" rel="stylesheet" type="text/css" />
+     
+     <script>
+         var i = 0;
+         var j = 0;
+         var k = 0;
+     function project1funct() {
+         if (i!=0) {}
+         else {
+         document.getElementById("project1").append("Here is my project 1."); 
+         i++;
+         }
+     }
+         function project2funct() {
+         if (j!=0) {}
+         else {
+         document.getElementById("project2").append("Here is my project 2."); 
+         j++;
+         }
+    }
+    function project3funct() {
+         if (k!=0) {}
+         else {
+         document.getElementById("project3").append("Here is my project 3."); 
+         j++;
+         }
+    }
+    
+     </script>
+     
     </head>
 <body>
      <div class = "navigation">
@@ -12,26 +41,24 @@
     <div class="myproj">
      Here are my projects <a><img alt="Thomas Owen" src="../Images/me.jpg" class="image" style="width: auto; height: auto; display: inline " align="right"/></a>
     </div>
-    <div>
-    <h1>Project 1</h1>
-    <p>
-        
-    </p>
-    </div>
     
     <div>
-    <h1>Project 2</h1>
-    <p>
+    <button onclick="project1funct()" class="dropbtn">Project 1</button>
+            <p id="project1" class="project1">
+               
+            </p>
         
-    </p>
-    </div>
-   
-     <div>
-    <h1>Project 3</h1>
-    <p>
+     <button onclick="project2funct()" class="dropbtn">Project 2</button>
+         <p id="project2" class="project2">
+               
+        </p>
         
-    </p>
-    </div>
-   
+    <button onclick="project3funct()" class="dropbtn">Project 2</button>
+         <p id="project3" class="project3">
+               
+        </p>
+        
+    </div>      
+          
     </body>
 </html>

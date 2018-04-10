@@ -33,6 +33,33 @@ html {
     
 }
 
+.project1 {
+        background-color: lightblue;
+        color: black;
+        text-align: center;
+        font-family: "Arial", Helvetica, sans-serif;
+        font-size: 30px;
+
+}
+
+.project2 {
+        background-color: lightblue;
+        color: black;
+        text-align: center;
+        font-family: "Arial", Helvetica, sans-serif;
+        font-size: 30px;
+
+}
+
+.project3 {
+        background-color: lightblue;
+        color: black;
+        text-align: center;
+        font-family: "Arial", Helvetica, sans-serif;
+        font-size: 30px;
+
+}
+
 .search {
     
    
@@ -53,3 +80,18 @@ body {
     margin: 0 0 1em 1em;
    
 }
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 32px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+
+.show {display:block;}
