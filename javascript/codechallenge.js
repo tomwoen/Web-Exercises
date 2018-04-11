@@ -84,6 +84,64 @@ function displayarray() {
     array.forEach(elem => console.log(elem));
     
 }
+
+function fizzbuzz() {
+    
+    for (i = 0; i <100; i++) {
+        
+    if (i%3===0) {
+        
+        console.log("Fizz");
+    
+    }
+        else {
+        
+        console.log(i);
+        }
+        
+    }
+        
+} 
+
+function divide() {
+    
+    var n = document.getElementById("number").value;
+    
+    for (i=n;i>0;){
+        
+            
+    if (i%3===0) {
+        
+        i = i/3;
+        console.log(i);
+    }
+   else { i--;
+         
+         console.log(i);}    
+    }
+
+}
+
+function fierceDOM() {
+    
+    var d = document.getElementById("DOM");
+    var para = document.createElement("p");
+    para.setAttribute("id","text");
+    
+    d.appendChild(para);
+}
+
+function addDOM() {
+    
+    var txt = document.getElementById("text");
+    txt.innerText = "What's in a textBox";
+}
+
+function deleteDOM() {
+    
+    
+    
+}
     
     
 
