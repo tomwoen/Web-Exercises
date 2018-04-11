@@ -5,7 +5,7 @@ var square = function sqfun() {
     
 }
 
-//console.log(square(3));
+
 
 var sum = function sumfun(p1, p2, p3) {
     
@@ -25,8 +25,6 @@ var sum = function sumfun(p1, p2, p3) {
     document.getElementById("sump").append(p2);
     
 }
-
-//console.log(sum(2,4,6));
 
 var object1 = {
     
@@ -52,6 +50,39 @@ var obj = function Ofun() {
     
     x.innerText = object1.name+"\n"+object1.occupation+"\n"+object1.age;
   
+}
+
+function check() {
+    
+    if (20<object1.age<40) {
+        
+        console.log("Yes");
+            
+    }
+    else { console.log("No"); }
+    
+}
+
+function display() {
+
+
+    var lowercase = "He said \"My name is elliott\"";
+    
+    var uppercase = lowercase.toUpperCase();
+    
+    var num = 1 + "2";
+    document.getElementById("string").innerText = lowercase + "\n" + uppercase +"\n"+num;
+    
+    
+}
+
+function displayarray() {
+    
+    var array = ['boats','coats','oats'];
+    array.push('floats');
+    array.pop();
+    array.forEach(elem => console.log(elem));
+    
 }
     
     
