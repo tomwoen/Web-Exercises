@@ -9,7 +9,20 @@ var square = function sqfun() {
 
 var sum = function sumfun(p1, p2, p3) {
     
-    document.getElementById("sump").append(p1 + p2 + p3);
+    
+    var p1 = document.getElementById("input2").value;
+    var p2 = 0;
+    for (i=0;i<p1.length;i++) {
+        
+        if (p1.substring(i,i+1)!=(",")) {
+            var l = Number(p1.substring(i,i+1));
+            //p2+=p1.substring(i,i+1);
+            p2+=l;
+        }
+        
+        
+    }
+    document.getElementById("sump").append(p2);
     
 }
 
@@ -27,23 +40,20 @@ var object = function objfun() {
     
     var x = document.getElementById("pers");
     
-    x.append(object1.name+"\n");
+    x.innerText = object1.name+"\n"+object1.occupation+"\n"+object1.age;
     
-    x.append(object1.occupation);
-    x.append("<br>");
-    x.append(object1.age);
-    x.append("<br>");
+}
+    
+var obj = function Ofun() {
     
     object1.name = "Jeff";
     object1.occupation = "Undercover Policeman";
     object1.age = "22";
     
-    x.append(object1.name+"\n");
-    
-    x.append(object1.occupation);
-    x.append("<br>");
-    x.append(object1.age);
-    
-    
+    x.innerText = object1.name+"\n"+object1.occupation+"\n"+object1.age;
+  
 }
+    
+    
+
 
